@@ -11,7 +11,7 @@ An application that allows users to shorten long URLs and track the number of ti
 git clone https://github.com/CllaudiaB/short_URL.git
 ```
 # Requirements
-You need to have python3 installed
+You need to have `python3` installed
 #### On Linux
 ```
 sudo apt-get update
@@ -21,7 +21,10 @@ sudo apt-get install python3
 ```
 brew install python@3
 ```
-To maintain code consistency and adhere to PEP 8 conventions, you should install `pycodestyle` use command `pip install pycodestyle`
+To maintain code consistency and adhere to PEP 8 conventions, you should install `pycodestyle` use command 
+```
+pip install pycodestyle
+```
 Create a virtual environment in Python using
 ```
 python3 -m venv env
